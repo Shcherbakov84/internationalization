@@ -1,0 +1,35 @@
+{
+    "title": "Приклад перекладу",
+    "intro": "Привіт, я - {{name}}, мені {{age}}",
+
+    "server": {
+        "internal_error": "Внутрішня помилка",
+        "user_not_found": {
+            "cause_email": "Користувача не знайдено по email" 
+        }   
+    },
+    "registration": {
+        "bad_req": {
+            "field": {
+                "first_name": "Не вірно введене ім'я",
+                "last_name": "Не вірно введене прізвище",
+                "email": "Не вірно введений email",
+                "pass": "Не вірно введений пароль"
+            }
+        }
+    },
+    "endpoint": {
+        "method_not_supported": "Метод не підтримується",
+        "media_type_not_supported": "Media type не підтримується"
+    },
+
+    "ui": {
+        "validation": {
+            "msgs": {
+                "requiredField": "Обов'язкове поле",
+                "emailPatternWarn": "Не валідний E-mail. Повинен містити @",
+                "firstNameLengthWarn": "Від 1 до {{lengths.firstName.max}} символів"
+            }
+        }
+    }
+}

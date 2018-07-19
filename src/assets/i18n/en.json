@@ -1,0 +1,35 @@
+{
+    "title": "Translation example",
+    "intro": "Hello I am {{name}}, I am {{age}} years old",
+
+    "server": {
+        "internal_error": "Internal error",
+        "user_not_found": {
+            "cause_email": "User not found by email name" 
+        }   
+    },
+    "registration": {
+        "bad_req": {
+            "field": {
+                "first_name": "Bad request. Invalid firstName",
+                "last_name": "Bad request. Invalid lastName",
+                "email": "Bad request. Invalid email",
+                "pass": "Bad request. Invalid password"
+            }
+        }
+    },
+    "endpoint": {
+        "method_not_supported": "Method is not supported",
+        "media_type_not_supported": "Media type is not supported"
+    },
+
+    "ui": {
+        "validation": {
+            "msgs": {
+                "requiredField": "Required field",
+                "emailPatternWarn": "E-mail is invalid. Must contain @",
+                "firstNameLengthWarn": "From 1 to {{lengths.firstName.max}}"
+            }
+        }
+    }
+}
